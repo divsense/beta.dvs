@@ -4,12 +4,12 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: beta.dvs
-    endpoint: beta.divsense.com
+    #endpoint: beta.divsense.com
     region: us-west-2
     skip_cleanup: true
-    local-dir: d1v53
-    acl: public_read
-    detect_encoding: true
-notifications:
-    email:
-        on_failure: always
+    upload-dir: d1v53
+    #acl: public_read
+    #detect_encoding: true
+#notifications:
+#    email:
+#        on_failure: always
